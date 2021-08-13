@@ -36,7 +36,7 @@ public class DebitCardDeliveryTestPattern {
 
     @Test
     void shouldShortTestPassed() {
-        var plusDaysForFirstDate = 4;
+        var plusDaysForFirstDate = 5;
         var firstDate = DataGenerator.generateDate(plusDaysForFirstDate);
         var validUser = DataGenerator.Registration.generateByCard("ru");
 
